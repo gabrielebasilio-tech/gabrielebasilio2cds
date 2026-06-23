@@ -70,7 +70,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
+background-image: linear-gradient(#e340cb,#e340cb);
 color: white;
 display: flex;
 justify-content:center;
@@ -93,7 +93,7 @@ color: #ffffff;
 text-decoration: none;
 }
 
-.escola.image {
+minha.png {
     height: auto;
     width: 500px;
 }
