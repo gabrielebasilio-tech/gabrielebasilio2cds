@@ -40,8 +40,6 @@ padding-right: 30px;
 .banner1{
 display: flex;
 justify-content: center;
-width: 500px;
-height: auto;
 }
 .estudante_titulo{
 padding: 50px;
@@ -93,4 +91,9 @@ padding: 12px 0;
 .link{
 color: #ffffff;
 text-decoration: none;
+}
+
+.escola.image {
+    height: auto;
+    width: 500px;
 }
