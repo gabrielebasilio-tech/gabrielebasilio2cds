@@ -68,3 +68,29 @@ text-decoration: none;
     height: auto;
     width: 350px;
 }
+.sobremim-titulo{
+color: #390068;
+text-align: center;
+padding: 30px 0;
+}
+
+.sobremim-conteudo{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px 40px;
+font-size: 18px;
+line-height: 1.6;
+}
+
+.sobremim-subtitulo{
+color: #390068;
+margin-top: 20px;
+}
+
+.sobremim-lista{
+padding-left: 20px;
+}
+
+.sobremim-lista li{
+margin-bottom: 8px;
+}
