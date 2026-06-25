@@ -37,6 +37,18 @@ justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
 }
+.sociais{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 12px;
+padding-right: 30px;
+}
+
+.icone-social{
+width: 32px;
+height: 32px;
+}
 .banner1{
 display: flex;
 justify-content: center;
