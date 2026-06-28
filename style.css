@@ -79,6 +79,10 @@ text-decoration: none;
     max-width: 1200px;
     display: block;
 }
+.banner1 {
+  display: flex;
+  justify-content: center;
+}
 .sobremim-titulo{
 color: 
 #390068;
