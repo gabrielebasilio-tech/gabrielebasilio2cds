@@ -7,39 +7,56 @@ body{
 font-family: "Poppins", sans-serif;
 }
 header{
-  background-image: url("banner_site_pessoal.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 220px;
-  position: relative;
+background-color: 
+#390068;
+color: rgb(255, 255, 255);
+width: 100%;
+padding: 20px;
 }
 .cabecalho-itens{
-  max-width: 1980px;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
+max-width: 1980px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cabecalho_imagem{
+width: 95px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.titulo_site{
+padding: 50px;
+text-align: center;
+width: 50%;
+font: 30px;
 }
 .sociais{
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
+display: flex;
+justify-content: flex-end;
+width: 25%;
+padding-right: 30px;
+}
+.sociais{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 12px;
+padding-right: 30px;
 }
 .icone-social{
-  width: 32px;
-  height: 32px;
+width: 32px;
+height: 32px;
 }
 .banner1{
 display: flex;
 justify-content: center;
 }
 .escola{
-background-image: linear-gradient(#390068,#390068);
+background-image: linear-gradient(
+#390068,
+#390068);
 color: white;
 display: flex;
 justify-content:center;
@@ -55,22 +72,21 @@ text-align: center;
 height: 80px;
 padding: 12px 0;
 }
-
 .link{
-color: #ffffff;
+color: 
+#ffffff;
 text-decoration: none;
 }
-
 .escola-image {
     height: auto;
     width: 350px;
 }
 .sobremim-titulo{
-color: #390068;
+color: 
+#390068;
 text-align: center;
 padding: 30px 0;
 }
-
 .sobremim-conteudo{
 max-width: 800px;
 margin: 0 auto;
@@ -78,16 +94,14 @@ padding: 0 20px 40px;
 font-size: 18px;
 line-height: 1.6;
 }
-
 .sobremim-subtitulo{
-color: #390068;
+color: 
+#390068;
 margin-top: 20px;
 }
-
 .sobremim-lista{
 padding-left: 20px;
 }
-
 .sobremim-lista li{
 margin-bottom: 8px;
 }
