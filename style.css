@@ -74,9 +74,10 @@ color:
 text-decoration: none;
 }
 .escola-image {
-  width: 100%;
-  height: auto;
-  display: block;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: block;
 }
 .banner1 {
   display: flex;
