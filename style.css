@@ -35,8 +35,24 @@ font: 30px;
 .sociais{
 display: flex;
 justify-content: flex-end;
-width: 25%;
+align-items: center;
+gap: 12px;
 padding-right: 30px;
+}
+
+.sociais a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.sociais a:hover {
+  background-color: #ffffff20;
+  transform: scale(1.15);
 }
 .sociais{
 display: flex;
