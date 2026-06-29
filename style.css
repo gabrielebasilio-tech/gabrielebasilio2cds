@@ -7,7 +7,7 @@ body{
 font-family: "Poppins", sans-serif;
 }
 header{
-background-color: 
+background-color:
 #390068;
 color: rgb(255, 255, 255);
 width: 100%;
@@ -35,24 +35,8 @@ font: 30px;
 .sociais{
 display: flex;
 justify-content: flex-end;
-align-items: center;
-gap: 12px;
+width: 25%;
 padding-right: 30px;
-}
-
-.sociais a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-.sociais a:hover {
-  background-color: #ffffff20;
-  transform: scale(1.15);
 }
 .sociais{
 display: flex;
@@ -85,7 +69,7 @@ height: 80px;
 padding: 12px 0;
 }
 .link{
-color: 
+color:
 #ffffff;
 text-decoration: none;
 }
@@ -100,7 +84,7 @@ text-decoration: none;
   justify-content: center;
 }
 .sobremim-titulo{
-color: 
+color:
 #390068;
 text-align: center;
 padding: 30px 0;
@@ -140,7 +124,7 @@ font-size: 18px;
 line-height: 1.6;
 }
 .sobremim-subtitulo{
-color: 
+color:
 #390068;
 margin-top: 20px;
 }
