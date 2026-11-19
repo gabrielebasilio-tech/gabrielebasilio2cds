@@ -80,3 +80,20 @@ const resetBoard = () => {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+// Zoom nas fotos da galeria
+const todasFotos = document.querySelectorAll('.foto-galeria');
+
+todasFotos.forEach(foto => {
+    foto.addEventListener('click', () => {
+        // Remove o zoom de qualquer outra foto que já esteja aberta
+        todasFotos.forEach(outraFoto => {
+            if (outraFoto !== foto) {
+                outraFoto.classList.remove('zoom');
+            }
+        });
+
+        // Alterna o zoom na foto clicada (adiciona se não tiver, remove se tiver)
+        foto.classList.toggle('zoom');
+    });
+});

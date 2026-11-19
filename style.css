@@ -262,3 +262,17 @@ body{
     --imperial-red: #390068;
     --silver-chalice: #b1a7a6ff;
 }
+/* Faz a imagem ter um cursor de clique e transição suave */
+.foto-galeria {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Classe ativada pelo JavaScript */
+.foto-galeria.zoom {
+    transform: scale(2); /* Dobra o tamanho da imagem */
+    position: relative;
+    z-index: 999;        /* Garante que ela fique por cima de tudo */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+    border-radius: 8px;  /* Borda levemente arredondada (opcional) */
+}
